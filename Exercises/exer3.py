@@ -10,7 +10,7 @@ links = {}
 
 browser = Firefox()
 browser.get('https://selenium.dunossauro.live/exercicio_03.html')
-sleep(2)
+sleep(4)
 
 #página 1
 btn = browser.find_elements_by_tag_name('a')[-1]
